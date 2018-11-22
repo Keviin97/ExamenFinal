@@ -1,0 +1,14 @@
+{% extends 'menus/base.html' %}
+
+{% block content %}
+    <div class="post">
+        
+        <h1>{{ menu.nombre }}</h1>
+
+        <p>{{ menu.descripcion|linebreaksbr }}</p>
+        <p>{{ menu.total }}</p>
+        <p>{{ menu.platillos }}</p>
+        <p>{{ venta.platillos }}</p>
+        
+    </div>
+{% endblock %}
